@@ -809,6 +809,34 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"security/basicsecurity.mdx": {
+	id: "security/basicsecurity.mdx";
+  slug: "sec/basicsecurity";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/accesscontrol.mdx": {
+	id: "security/accesscontrol.mdx";
+  slug: "sec/accesscontrol";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/firewalls.mdx": {
+	id: "security/firewalls.mdx";
+  slug: "sec/firewalls";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/resources.mdx": {
+	id: "security/resources.mdx";
+  slug: "sec/resources";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "troubleshooting/connectivity.mdx": {
 	id: "troubleshooting/connectivity.mdx";
   slug: "ts/connection";
