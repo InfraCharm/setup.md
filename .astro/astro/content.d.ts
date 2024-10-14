@@ -235,6 +235,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"enhancements/Plugins/Free/MiniMOTD.mdx": {
+	id: "enhancements/Plugins/Free/MiniMOTD.mdx";
+  slug: "e/pl/minimotd";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "enhancements/Plugins/Free/auctionhouse.mdx": {
 	id: "enhancements/Plugins/Free/auctionhouse.mdx";
   slug: "e/pl/auctionhouse";
@@ -273,13 +280,6 @@ declare module 'astro:content' {
 "enhancements/Plugins/Free/luckperms.mdx": {
 	id: "enhancements/Plugins/Free/luckperms.mdx";
   slug: "e/pl/powerranks";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"enhancements/Plugins/Free/minimotd.mdx": {
-	id: "enhancements/Plugins/Free/minimotd.mdx";
-  slug: "e/pl/minimotd";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -760,6 +760,41 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"security/basicsecurity.mdx": {
+	id: "security/basicsecurity.mdx";
+  slug: "sec/basicsecurity";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/firewalls.mdx": {
+	id: "security/firewalls.mdx";
+  slug: "sec/firewalls";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/accesscontrol.mdx": {
+	id: "security/accesscontrol.mdx";
+  slug: "sec/accesscontrol";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/backups.mdx": {
+	id: "security/backups.mdx";
+  slug: "sec/backups";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/resources.mdx": {
+	id: "security/resources.mdx";
+  slug: "sec/resources";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "tools/database.mdx": {
 	id: "tools/database.mdx";
   slug: "t/database";
@@ -805,34 +840,6 @@ declare module 'astro:content' {
 "tools/tunnels.mdx": {
 	id: "tools/tunnels.mdx";
   slug: "t/tunnels";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"security/basicsecurity.mdx": {
-	id: "security/basicsecurity.mdx";
-  slug: "sec/basicsecurity";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"security/accesscontrol.mdx": {
-	id: "security/accesscontrol.mdx";
-  slug: "sec/accesscontrol";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"security/firewalls.mdx": {
-	id: "security/firewalls.mdx";
-  slug: "sec/firewalls";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"security/resources.mdx": {
-	id: "security/resources.mdx";
-  slug: "sec/resources";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
