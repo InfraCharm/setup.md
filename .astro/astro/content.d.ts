@@ -767,13 +767,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"security/firewalls.mdx": {
-	id: "security/firewalls.mdx";
-  slug: "sec/firewalls";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
 "security/accesscontrol.mdx": {
 	id: "security/accesscontrol.mdx";
   slug: "sec/accesscontrol";
@@ -784,6 +777,13 @@ declare module 'astro:content' {
 "security/backups.mdx": {
 	id: "security/backups.mdx";
   slug: "sec/backups";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"security/firewalls.mdx": {
+	id: "security/firewalls.mdx";
+  slug: "sec/firewalls";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
