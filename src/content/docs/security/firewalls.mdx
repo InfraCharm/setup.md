@@ -47,6 +47,8 @@ A basic firewall setup on linux for a Minecraft server running Pterodactyl would
 If you wanted to allow a staff member SSH access:  
 `ufw allow from {Their IP} to any port 22` # Allows their home IP to access port 22
 
+**Note** - Docker (Used with Pterodactyl and other popular panels) bypasses UFW rules. Docker rules MUST be set in IPTables.
+
 You can find many tutorials online about the use of UFW. If you wanted a more advanced approach with more control, you can look into using IPTables.
 
 ---
